@@ -69,7 +69,7 @@ jobs :
   deploy :
     runs-on : ubuntu-latest
     needs : [build]
-    environments : 
+    environment : 
       name : production
     steps:
       - name : pulling git repo
