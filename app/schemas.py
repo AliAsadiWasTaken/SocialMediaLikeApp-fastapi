@@ -1,5 +1,4 @@
 from datetime import datetime
-from lib2to3.pytree import Base
 from pydantic import BaseModel, EmailStr, conint
 from typing import Optional
 
